@@ -4,8 +4,6 @@
 
 
 #include <string>
-
-
 #include <iostream>
 #include <sstream>
 #include "Warper.h"

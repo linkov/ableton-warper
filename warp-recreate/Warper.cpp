@@ -4,7 +4,7 @@
 
 #include "Warper.h"
 
-
+#pragma mark API
 void Warper::addMarker(double beatTime, double sampleTime) {
     markers.emplace(WarpMarker{beatTime, sampleTime});
 }
@@ -12,15 +12,20 @@ void Warper::addMarker(double beatTime, double sampleTime) {
 double Warper::b2s(double beatTime) const {
 
     auto marker2 = markers.upper_bound(WarpMarker{beatTime, 0});
-    double tempo{endTempo};
 
     if(marker2 == markers.begin()) {
         marker2 = next(marker2);
     }
 
     auto marker1 = prev(marker2);
-    if(marker2 != markers.end()) {
-        tempo = (marker2->beatTime - marker1->beatTime) / (marker2->sampleTime - marker1->sampleTime);
+
+    double tempo;
+
+    if(marker2 == markers.end()) {
+        tempo = endTempo;
+    } else {
+        tempo = tempoForMarkers(marker1, marker2);
+
     }
     return marker1->sampleTime + ((beatTime - marker1->beatTime) / tempo);
 }
@@ -28,24 +33,27 @@ double Warper::b2s(double beatTime) const {
 double Warper::s2b(double sampleTime) const {
 
     auto marker2 = sampleUpperBound(sampleTime);
-    if(marker2 == markers.begin()) marker2 = next(marker2);
+
+    if(marker2 == markers.begin()) {
+        marker2 = next(marker2);
+    }
 
     auto marker1 = prev(marker2);
-
-    auto firstBeat = marker1->beatTime;
-    auto firstSample = marker1->sampleTime;
 
     double tempo;
 
     if(marker2 == markers.end()) {
         tempo = endTempo;
     } else {
-        auto secondBeat = marker2->beatTime;
-        auto secondSample = marker2->sampleTime;
-        tempo = (secondBeat - firstBeat) / (secondSample - firstSample);
+        tempo = tempoForMarkers(marker1, marker2);
     }
 
-    return firstBeat + ((sampleTime - firstSample) * tempo);
+    return marker1->beatTime + ((sampleTime - marker1->sampleTime) * tempo);
+}
+
+#pragma mark Utils
+double Warper::tempoForMarkers(set<Warper::WarpMarker>::iterator marker1, set<Warper::WarpMarker>::iterator marker2) const {
+    return (marker2->beatTime - marker1->beatTime) / (marker2->sampleTime - marker1->sampleTime);
 }
 
 set<Warper::WarpMarker>::iterator Warper::sampleUpperBound(double sample) const {
