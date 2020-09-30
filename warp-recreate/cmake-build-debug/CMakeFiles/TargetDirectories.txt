@@ -1,0 +1,6 @@
+/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles/warper.dir
+/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/CMakeFiles/rebuild_cache.dir
+/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/CMakeFiles/edit_cache.dir
+/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/CMakeFiles/warper_tests.dir

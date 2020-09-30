@@ -1,0 +1,2 @@
+add_executable(warper_tests WarperTests.cpp)
+target_link_libraries(warper_tests)
