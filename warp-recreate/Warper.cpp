@@ -32,7 +32,7 @@ double Warper::b2s(double beatTime) const {
 
 double Warper::s2b(double sampleTime) const {
 
-    auto marker2 = sampleUpperBound(sampleTime);
+    auto marker2 = markerForSampleTimeUpperBound(sampleTime);
 
     if(marker2 == markers.begin()) {
         marker2 = next(marker2);
@@ -56,7 +56,7 @@ double Warper::tempoForMarkers(set<Warper::WarpMarker>::iterator marker1, set<Wa
     return (marker2->beatTime - marker1->beatTime) / (marker2->sampleTime - marker1->sampleTime);
 }
 
-set<Warper::WarpMarker>::iterator Warper::sampleUpperBound(double sample) const {
+set<Warper::WarpMarker>::iterator Warper::markerForSampleTimeUpperBound(double sample) const {
     auto marker{markers.begin()};
     for ( ; marker != markers.end() && marker->sampleTime <= sample; ++marker) {}
     return marker;

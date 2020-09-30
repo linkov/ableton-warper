@@ -17,7 +17,7 @@ class Warper {
         }
     };
     set<WarpMarker> markers;
-    set<WarpMarker>::iterator sampleUpperBound(double sample) const;
+    set<WarpMarker>::iterator markerForSampleTimeUpperBound(double sample) const;
     double tempoForMarkers(set<Warper::WarpMarker>::iterator marker1, set<Warper::WarpMarker>::iterator marker2) const;
 
     public:
