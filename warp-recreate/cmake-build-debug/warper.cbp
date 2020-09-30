@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\Catch_tests\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug"/>
+				<Option working_dir="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug"/>
+				<Option working_dir="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug"/>
+				<Option working_dir="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="warper">
-				<Option output="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/warper" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug"/>
+				<Option output="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/warper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 warper"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 warper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="warper/fast">
-				<Option output="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/warper" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug"/>
+				<Option output="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/warper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,15 +73,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 warper/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 warper/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="warper_tests">
-				<Option output="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/warper_tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests"/>
+				<Option output="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/warper_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -94,15 +94,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 warper_tests"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 warper_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="warper_tests/fast">
-				<Option output="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/warper_tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests"/>
+				<Option output="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/warper_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -115,29 +115,29 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 warper_tests/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 warper_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Catch_tests/WarperTests.cpp">
+		<Unit filename="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Catch_tests/WarperTests.cpp">
 			<Option target="warper_tests"/>
 		</Unit>
-		<Unit filename="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Warper.cpp">
+		<Unit filename="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Warper.cpp">
 			<Option target="warper"/>
 		</Unit>
-		<Unit filename="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Warper.h">
+		<Unit filename="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Warper.h">
 			<Option target="warper"/>
 		</Unit>
-		<Unit filename="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/main.cpp">
+		<Unit filename="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/main.cpp">
 			<Option target="warper"/>
 		</Unit>
-		<Unit filename="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/CMakeLists.txt">
+		<Unit filename="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Catch_tests/CMakeLists.txt">
+		<Unit filename="/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Catch_tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Catch_tests\"/>
 		</Unit>
 	</Project>

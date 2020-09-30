@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Warper.cpp
+Warper.h
+/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Warper.h
+
+/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Warper.h
+set
+-
+

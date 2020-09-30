@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate
+CMAKE_SOURCE_DIR = /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/warper.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/warper.dir/flags.make
 
 CMakeFiles/warper.dir/Warper.cpp.o: CMakeFiles/warper.dir/flags.make
 CMakeFiles/warper.dir/Warper.cpp.o: ../Warper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/warper.dir/Warper.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warper.dir/Warper.cpp.o -c /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Warper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/warper.dir/Warper.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warper.dir/Warper.cpp.o -c /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Warper.cpp
 
 CMakeFiles/warper.dir/Warper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/warper.dir/Warper.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Warper.cpp > CMakeFiles/warper.dir/Warper.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Warper.cpp > CMakeFiles/warper.dir/Warper.cpp.i
 
 CMakeFiles/warper.dir/Warper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warper.dir/Warper.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Warper.cpp -o CMakeFiles/warper.dir/Warper.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Warper.cpp -o CMakeFiles/warper.dir/Warper.cpp.s
 
 CMakeFiles/warper.dir/main.cpp.o: CMakeFiles/warper.dir/flags.make
 CMakeFiles/warper.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/warper.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warper.dir/main.cpp.o -c /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/warper.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warper.dir/main.cpp.o -c /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/main.cpp
 
 CMakeFiles/warper.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/warper.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/main.cpp > CMakeFiles/warper.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/main.cpp > CMakeFiles/warper.dir/main.cpp.i
 
 CMakeFiles/warper.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warper.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/main.cpp -o CMakeFiles/warper.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/main.cpp -o CMakeFiles/warper.dir/main.cpp.s
 
 # Object files for target warper
 warper_OBJECTS = \
@@ -115,7 +115,7 @@ warper: CMakeFiles/warper.dir/Warper.cpp.o
 warper: CMakeFiles/warper.dir/main.cpp.o
 warper: CMakeFiles/warper.dir/build.make
 warper: CMakeFiles/warper.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable warper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable warper"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/warper.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/warper.dir/clean:
 .PHONY : CMakeFiles/warper.dir/clean
 
 CMakeFiles/warper.dir/depend:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles/warper.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles/warper.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/warper.dir/depend
 

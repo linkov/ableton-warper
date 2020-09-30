@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Warper.cpp" "/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles/warper.dir/Warper.cpp.o"
-  "/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/main.cpp" "/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles/warper.dir/main.cpp.o"
+  "/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Warper.cpp" "/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles/warper.dir/Warper.cpp.o"
+  "/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/main.cpp" "/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles/warper.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

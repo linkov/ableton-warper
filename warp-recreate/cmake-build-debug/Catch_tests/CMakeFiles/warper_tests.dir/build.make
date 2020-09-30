@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate
+CMAKE_SOURCE_DIR = /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Catch_tests/CMakeFiles/warper_tests.dir/depend.make
@@ -79,16 +79,16 @@ include Catch_tests/CMakeFiles/warper_tests.dir/flags.make
 
 Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.o: Catch_tests/CMakeFiles/warper_tests.dir/flags.make
 Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.o: ../Catch_tests/WarperTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.o"
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warper_tests.dir/WarperTests.cpp.o -c /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Catch_tests/WarperTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.o"
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warper_tests.dir/WarperTests.cpp.o -c /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Catch_tests/WarperTests.cpp
 
 Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/warper_tests.dir/WarperTests.cpp.i"
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Catch_tests/WarperTests.cpp > CMakeFiles/warper_tests.dir/WarperTests.cpp.i
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Catch_tests/WarperTests.cpp > CMakeFiles/warper_tests.dir/WarperTests.cpp.i
 
 Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warper_tests.dir/WarperTests.cpp.s"
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Catch_tests/WarperTests.cpp -o CMakeFiles/warper_tests.dir/WarperTests.cpp.s
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Catch_tests/WarperTests.cpp -o CMakeFiles/warper_tests.dir/WarperTests.cpp.s
 
 # Object files for target warper_tests
 warper_tests_OBJECTS = \
@@ -100,8 +100,8 @@ warper_tests_EXTERNAL_OBJECTS =
 Catch_tests/warper_tests: Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.o
 Catch_tests/warper_tests: Catch_tests/CMakeFiles/warper_tests.dir/build.make
 Catch_tests/warper_tests: Catch_tests/CMakeFiles/warper_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable warper_tests"
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/warper_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable warper_tests"
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/warper_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Catch_tests/CMakeFiles/warper_tests.dir/build: Catch_tests/warper_tests
@@ -109,10 +109,10 @@ Catch_tests/CMakeFiles/warper_tests.dir/build: Catch_tests/warper_tests
 .PHONY : Catch_tests/CMakeFiles/warper_tests.dir/build
 
 Catch_tests/CMakeFiles/warper_tests.dir/clean:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests && $(CMAKE_COMMAND) -P CMakeFiles/warper_tests.dir/cmake_clean.cmake
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests && $(CMAKE_COMMAND) -P CMakeFiles/warper_tests.dir/cmake_clean.cmake
 .PHONY : Catch_tests/CMakeFiles/warper_tests.dir/clean
 
 Catch_tests/CMakeFiles/warper_tests.dir/depend:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Catch_tests /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/CMakeFiles/warper_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Catch_tests /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/CMakeFiles/warper_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Catch_tests/CMakeFiles/warper_tests.dir/depend
 

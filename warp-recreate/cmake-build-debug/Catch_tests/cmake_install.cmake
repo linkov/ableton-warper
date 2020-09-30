@@ -1,4 +1,4 @@
-# Install script for directory: /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/Catch_tests
+# Install script for directory: /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/Catch_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

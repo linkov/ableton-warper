@@ -64,10 +64,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate
+CMAKE_SOURCE_DIR = /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -114,14 +114,14 @@ Catch_tests/clean: Catch_tests/CMakeFiles/warper_tests.dir/clean
 CMakeFiles/warper.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/warper.dir/build.make CMakeFiles/warper.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/warper.dir/build.make CMakeFiles/warper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target warper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target warper"
 .PHONY : CMakeFiles/warper.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/warper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/warper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/warper.dir/rule
 
 # Convenience name for target.
@@ -141,14 +141,14 @@ CMakeFiles/warper.dir/clean:
 Catch_tests/CMakeFiles/warper_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f Catch_tests/CMakeFiles/warper_tests.dir/build.make Catch_tests/CMakeFiles/warper_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f Catch_tests/CMakeFiles/warper_tests.dir/build.make Catch_tests/CMakeFiles/warper_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target warper_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target warper_tests"
 .PHONY : Catch_tests/CMakeFiles/warper_tests.dir/all
 
 # Build rule for subdir invocation for target.
 Catch_tests/CMakeFiles/warper_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/CMakeFiles/warper_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles 0
 .PHONY : Catch_tests/CMakeFiles/warper_tests.dir/rule
 
 # Convenience name for target.

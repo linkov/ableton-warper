@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate
+CMAKE_SOURCE_DIR = /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/Catch_tests/CMakeFiles/progress.marks
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug/CMakeFiles 0
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/Catch_tests/CMakeFiles/progress.marks
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/clean
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/preinstall
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/preinstall
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Catch_tests/CMakeFiles/warper_tests.dir/rule:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/CMakeFiles/warper_tests.dir/rule
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch_tests/CMakeFiles/warper_tests.dir/rule
 .PHONY : Catch_tests/CMakeFiles/warper_tests.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ warper_tests: Catch_tests/CMakeFiles/warper_tests.dir/rule
 
 # fast build rule for target.
 warper_tests/fast:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Catch_tests/CMakeFiles/warper_tests.dir/build.make Catch_tests/CMakeFiles/warper_tests.dir/build
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Catch_tests/CMakeFiles/warper_tests.dir/build.make Catch_tests/CMakeFiles/warper_tests.dir/build
 .PHONY : warper_tests/fast
 
 WarperTests.o: WarperTests.cpp.o
@@ -151,7 +151,7 @@ WarperTests.o: WarperTests.cpp.o
 
 # target to build an object file
 WarperTests.cpp.o:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Catch_tests/CMakeFiles/warper_tests.dir/build.make Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.o
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Catch_tests/CMakeFiles/warper_tests.dir/build.make Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.o
 .PHONY : WarperTests.cpp.o
 
 WarperTests.i: WarperTests.cpp.i
@@ -160,7 +160,7 @@ WarperTests.i: WarperTests.cpp.i
 
 # target to preprocess a source file
 WarperTests.cpp.i:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Catch_tests/CMakeFiles/warper_tests.dir/build.make Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.i
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Catch_tests/CMakeFiles/warper_tests.dir/build.make Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.i
 .PHONY : WarperTests.cpp.i
 
 WarperTests.s: WarperTests.cpp.s
@@ -169,7 +169,7 @@ WarperTests.s: WarperTests.cpp.s
 
 # target to generate assembly for a file
 WarperTests.cpp.s:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Catch_tests/CMakeFiles/warper_tests.dir/build.make Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.s
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Catch_tests/CMakeFiles/warper_tests.dir/build.make Catch_tests/CMakeFiles/warper_tests.dir/WarperTests.cpp.s
 .PHONY : WarperTests.cpp.s
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/linkov/Documents/sdwr/cpp-projects/warp-recreate/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/linkov/Documents/sdwr/ableton-warper/warp-recreate/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

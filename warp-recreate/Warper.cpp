@@ -3,35 +3,33 @@
 //
 
 #include "Warper.h"
-#include <type_traits>
 
 
 void Warper::addMarker(double beatTime, double sampleTime) {
-//    static_assert(std::is_same<decltype(beatTime), double>::value,
-//                  "type must be `double`");
-//
-    beatTimes.emplace(BeatTime{beatTime, sampleTime});
-
+    markers.emplace(WarpMarker{beatTime, sampleTime});
 }
 
-double Warper::b2s(double beat) const {
+double Warper::b2s(double beatTime) const {
 
-    auto marker2 = beatTimes.upper_bound(BeatTime{beat, 0});
+    auto marker2 = markers.upper_bound(WarpMarker{beatTime, 0});
     double tempo{endTempo};
-    if(marker2 == beatTimes.begin()) {
+
+    if(marker2 == markers.begin()) {
         marker2 = next(marker2);
     }
+
     auto marker1 = prev(marker2);
-    if(marker2 != beatTimes.end()) {
+    if(marker2 != markers.end()) {
         tempo = (marker2->beatTime - marker1->beatTime) / (marker2->sampleTime - marker1->sampleTime);
     }
-    return marker1->sampleTime + ((beat - marker1->beatTime) / tempo);
+    return marker1->sampleTime + ((beatTime - marker1->beatTime) / tempo);
 }
 
-double Warper::s2b(double sample) {
+double Warper::s2b(double sampleTime) const {
 
-    auto marker2 = sample_upper_bound(sample);
-    if(marker2 == beatTimes.begin()) marker2 = next(marker2);
+    auto marker2 = sampleUpperBound(sampleTime);
+    if(marker2 == markers.begin()) marker2 = next(marker2);
+
     auto marker1 = prev(marker2);
 
     auto firstBeat = marker1->beatTime;
@@ -39,7 +37,7 @@ double Warper::s2b(double sample) {
 
     double tempo;
 
-    if(marker2 == beatTimes.end()) {
+    if(marker2 == markers.end()) {
         tempo = endTempo;
     } else {
         auto secondBeat = marker2->beatTime;
@@ -47,12 +45,11 @@ double Warper::s2b(double sample) {
         tempo = (secondBeat - firstBeat) / (secondSample - firstSample);
     }
 
-    return firstBeat + ((sample - firstSample) * tempo);
+    return firstBeat + ((sampleTime - firstSample) * tempo);
 }
 
-std::set<Warper::BeatTime>::iterator Warper::sample_upper_bound(double sample) const {
-    auto ret{beatTimes.begin()};
-    for ( ; ret != beatTimes.end() && ret->sampleTime <= sample; ++ret)
-    {}
-    return ret;
+set<Warper::WarpMarker>::iterator Warper::sampleUpperBound(double sample) const {
+    auto marker{markers.begin()};
+    for ( ; marker != markers.end() && marker->sampleTime <= sample; ++marker) {}
+    return marker;
 }

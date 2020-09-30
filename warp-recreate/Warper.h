@@ -11,19 +11,19 @@ using std::set;
 
 class Warper {
 
-    struct BeatTime {
+    struct WarpMarker {
         double beatTime, sampleTime;
-        bool operator<(const BeatTime& rhs) const {
+        bool operator<(const WarpMarker& rhs) const {
             return beatTime < rhs.beatTime;
         }
     };
-    set<BeatTime> beatTimes;
-    set<BeatTime>::iterator sample_upper_bound(double sample) const;
+    set<WarpMarker> markers;
+    set<WarpMarker>::iterator sampleUpperBound(double sample) const;
 
     public:
         double endTempo;
-        double b2s(double beat) const;
-        double s2b(double sample);
+        double b2s(double beatTime) const;
+        double s2b(double sampleTime) const;
         void addMarker(double beatTime, double sampleTime);
 };
 
